@@ -1,0 +1,4 @@
+- hosts: testtf
+  tasks:
+  - name: Try to ping the new host
+    ping:
